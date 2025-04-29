@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "de8sr6d09q0=",
+  "dgSpecHash": "xNaZw+dLPyE=",
   "success": true,
   "projectFilePath": "C:\\Users\\purba\\Desktop\\Work\\GitHub\\CsWpf_ImageProcessingBasic\\BasicImageProcessingInterface\\BasicImageProcessingInterface\\BasicImageProcessingInterface.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\purba\\.nuget\\packages\\aspose.imaging\\25.4.0\\aspose.imaging.25.4.0.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\communitytoolkit.highperformance\\8.4.0\\communitytoolkit.highperformance.8.4.0.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\opencvsharp4\\4.10.0.20241108\\opencvsharp4.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\opencvsharp4.extensions\\4.10.0.20241108\\opencvsharp4.extensions.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\opencvsharp4.runtime.win\\4.10.0.20241108\\opencvsharp4.runtime.win.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\opencvsharp4.wpfextensions\\4.10.0.20241108\\opencvsharp4.wpfextensions.4.10.0.20241108.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\purba\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

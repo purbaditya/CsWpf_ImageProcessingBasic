@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BasicImageProcessingInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Image Processing Demo" Height="822" Width="1280">
+	<Viewbox>
+		<Grid Height="911">
+			<Rectangle HorizontalAlignment="Right" Height="512" Stroke="Black" Fill="Gray" VerticalAlignment="Top" Width="640" Margin="0,2,0,0"/>
+			<Rectangle HorizontalAlignment="Left" Height="512" Margin="-4,2,0,0" Stroke="Black" Fill="Gray" VerticalAlignment="Top" Width="632"/>
+			<Rectangle HorizontalAlignment="Center" Height="395" Margin="0,512,0,0" Stroke="Black" Fill="Beige" VerticalAlignment="Top" Width="1279" RenderTransformOrigin="0.5,0.5">
+				<Rectangle.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform AngleX="0.373"/>
+						<RotateTransform/>
+						<TranslateTransform X="-0.66"/>
+					</TransformGroup>
+				</Rectangle.RenderTransform>
+			</Rectangle>
+			<Button x:Name="ProcessED" Content="Process" Margin="224,646,904,227" Height="30" Click="ProcessED_Click" FontWeight="Bold"/>
+			<Canvas Name="canDraw" Width="632" Height="512"
+                    VerticalAlignment="Top" HorizontalAlignment="Left"
+                    MouseDown="canDraw_MouseClick">
+				<Image x:Name="InputImage" Width="632" Height="512" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Cross"/>
+			</Canvas>
+			<Button x:Name="UploadImage" Content="Upload" Margin="9,520,1129,0" Height="60" Click="UploadImage_Click" Background="#FFD29898" VerticalAlignment="Top" FontWeight="Bold"/>
+			<ComboBox x:Name="IPAlgorithms_ED"
+                  IsEditable="true"
+                  IsReadOnly="true"
+                  Margin="10,646,0,227" Width="192" Height="30"
+                  SelectionChanged="Algorithms_SelectionChanged_ED" HorizontalAlignment="Left" FontWeight="Bold" Foreground="#FF953232"
+        />
+			<Image x:Name="OutputImage" Margin="704,-1,63,400" Height="512" Width="512"/>
+			<Button x:Name="Clear" Content="Clear" Margin="156,520,982,0" Height="60" Click="ClearImage_Click" Background="#FFD29898" VerticalAlignment="Top" FontWeight="Bold"/>
+			<TextBlock HorizontalAlignment="Left" Height="25" Margin="13,627,0,0" TextWrapping="Wrap" Text="Edge Detection" VerticalAlignment="Top" Width="93"/>
+			<TextBlock HorizontalAlignment="Left" Height="25" Margin="13,688,0,0" TextWrapping="Wrap" Text="2D Filtering" VerticalAlignment="Top" Width="93"/>
+			<ComboBox x:Name="IPAlgorithms_2DF"
+                  IsEditable="true"
+                  IsReadOnly="true"
+                  Margin="10,706,0,167" Width="192" Height="30"
+                  SelectionChanged="Algorithms_SelectionChanged_2DF" HorizontalAlignment="Left" FontWeight="Bold" Foreground="#FF953232"/>
+			<Button x:Name="Process2DF" Content="Process" Margin="224,704,904,169" Height="30" Click="Process2DF_Click" FontWeight="Bold"/>
+			<CheckBox x:Name="Addnoise" Content="Add Noise" HorizontalAlignment="Left" Height="28" Margin="13,589,0,0" VerticalAlignment="Top" Width="93" Checked="AddNoise_Checked"/>
+			<CheckBox x:Name="Equalize" Content="Equalize" HorizontalAlignment="Left" Height="14" Margin="111,589,0,0" VerticalAlignment="Top" Width="79" Checked="Equalize_Checked"/>
+		</Grid>
+	</Viewbox>
 </Window>
