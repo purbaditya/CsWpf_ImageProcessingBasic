@@ -1,8 +1,7 @@
-﻿// dotnet add package Aspose.Imaging --version 25.4.0
-using System.DirectoryServices;
+﻿// using System.DirectoryServices;
 using System.Drawing;
-using System.Security.Cryptography;
-using System.Text;
+// using System.Security.Cryptography;
+// using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,17 +9,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Windows.Xps.Packaging;
+// using System.Windows.Navigation;
+// using System.Windows.Shapes;
+// using System.Windows.Xps.Packaging;
 using Microsoft.Win32;
 using OpenCvSharp;
-using OpenCvSharp.Extensions;
+// using OpenCvSharp.Extensions;
 using OpenCvSharp.WpfExtensions;
 using System.IO;
-using System.Collections.ObjectModel;
-using Aspose.Imaging;
-using Aspose.Imaging.FileFormats.Dicom;
+// using System.Collections.ObjectModel;
+// using Aspose.Imaging;
+// using Aspose.Imaging.FileFormats.Dicom;
 using Aspose.Imaging.ImageOptions;
 
 using WpfImage = System.Windows.Controls.Image;
