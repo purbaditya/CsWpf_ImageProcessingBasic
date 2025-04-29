@@ -1,1 +1,3 @@
 *.vsidx
+*.suo
+DocumentLayout.backup.json
