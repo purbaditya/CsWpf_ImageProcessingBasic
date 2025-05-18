@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicImageProcessingInterface")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e06316d1cab7799280eb457bdaf3e51320a90c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1637995a7ec6f43508905a8e66df058e7b5a3129")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicImageProcessingInterface")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicImageProcessingInterface")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
